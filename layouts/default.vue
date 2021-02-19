@@ -121,4 +121,19 @@ html {
   opacity: 0.1;
   z-index: -1;
 }
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+
+  .main-container {
+    margin-top: 100px;
+    min-height: calc(100vh - 180px);
+  }
+
+  .footer {
+    height: 60px;
+  }
+}
 </style>

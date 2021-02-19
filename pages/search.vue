@@ -25,7 +25,7 @@ import Pagination from '@/components/Pagination/index.vue'
 import urls from '@/services/api'
 
 export default Vue.extend({
-  name: 'Author',
+  name: 'Search',
   components: {
     PoemListCom,
     Tabs,

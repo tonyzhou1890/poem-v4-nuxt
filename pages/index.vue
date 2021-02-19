@@ -91,4 +91,12 @@ export default Vue.extend({
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    .sidebar {
+      display: none;
+    }
+  }
+}
 </style>

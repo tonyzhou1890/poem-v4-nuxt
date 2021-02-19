@@ -231,4 +231,13 @@ export default Vue.extend({
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .header {
+    height: 70px;
+    .dropdown {
+      top: 70px;
+    }
+  }
+}
 </style>

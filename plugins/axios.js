@@ -1,10 +1,4 @@
-export default function ({
-  _store,
-  _redirect,
-  _req,
-  _router,
-  app: { $axios },
-}) {
+export default function ({ app: { $axios } }) {
   // 数据访问前缀
   $axios.defaults.baseURL = 'https://api-node.tony93.top/poem'
 
